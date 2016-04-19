@@ -29,11 +29,51 @@
   //   alert("sixth case");
   // }
 
-someValue = false;
+// someValue = false;
 
 // if (someValue !== 24) {
 //
 // }
+
+// if (!someValue) {
+//
+// }
+
+// var myResult = "";
+// myResult = (someValue === 24) ? "equal" : "not equal";
+// alert(myResult);
+// 
+// var userName = "Rimmer";
+// switch (userName)
+// {
+//   case "Lister":
+//     document.write("Care for a good curry?");
+//     break;
+//   case "Rimmer":
+//     document.write("Welcome back, smeg head");
+//     break;
+//   default:
+//     document.write("Are you an emohawk?");
+//     break;
+// }
+
+var rightNow = new Date();
+var currentHour = rightNow.getHours();
+switch (true)
+{
+  case (currentHour > 8 && currentHour <12):
+    document.write("Morning, Sunshine!");
+    break;
+  case (currentHour === 12):
+    document.write("Lunch time!");
+    break;
+  case (currentHour > 12 && currentHour < 18):
+    document.write("Fight the urge to siesta");
+    break;
+  default:
+    document.write("Careful Spark, they'll think you're a hard worker!");
+    break;
+}
 
 
 
@@ -44,6 +84,6 @@ someValue = false;
 
 </head>
 <body onload="alert('Hello World!')">
-  <h1>Javascript Example</h1>
+  <h1>JS</h1>
 </body>
 </html>
